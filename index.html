@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vacation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="conatact.html">
+    <!-- <link rel="stylesheet" href="xyz.css">  -->
+</head>
+
+<body>
+    <section class="showcase ">
+        <header>
+            <h2 class="logo">Vacation</h2>
+            <div class="toggle"></div>
+
+
+        </header>
+        <video src="2105113684 (1).mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Never stop</h2>
+            <h3>Exploring the word</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis porro libero eos, totam quibusdam quas
+                fugit voluptates in. Obcaecati, laudantium.</p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li>
+                <a href="#"><img src="facebook-new--v2.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="twitter.png" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="instagram-new.png" alt=""></a>
+            </li>
+
+
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a class="btn" href="#">Home</a></li>
+
+            <li><a class="btn" href="#">News</a></li>
+            <!-- <li><a class="btn"  data-toggle="modal" data-target="#myD" >Desination</a></li> -->
+            <li><a class="btn" href="#">Blog</a></li>
+            <li><a class="btn" data-toggle="modal" data-target="#myModal">Contact</a></li>
+            <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Contact</button> -->
+        </ul>
+       
+
+
+        <!-- Contact Us -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Contact Form</h4>
+                    </div>
+                    <div class="modal-body">
+                        <h1>CONNECT WITH US</h1>
+                        <p>Conatact WIth us in help your foem sumbit and get your otp your fon sent the form sumbit
+                            click button
+                        </p>
+                        <div class="contact-box">
+                            <div class="contact-left">
+                                <h3>SENT YOUR REQUEST</h3>
+                                <form>
+                                    <div class="input-row">
+                                        <div class="input group">
+                                            <lable>Name</lable>
+                                            <input type="text" placeholder="ENTER YOU NAME ">
+                                        </div>
+                                        <br>
+
+                                        <div class="input group">
+                                            <lable>PHONE</lable>
+                                            <input type="text" placeholder="+9874548547 ">
+                                        </div>
+                                        <br>
+
+                                        <div class="input-row">
+
+                                            <div class="input group">
+                                                <lable>EMAIL ID </lable>
+                                                <input type="text" placeholder="abc@gmail.com ">
+                                            </div>
+                                            <br>
+
+                                            <div class="input group">
+                                                <lable>subject</lable>
+                                                <input type="text" placeholder="+Productdemo ">
+                                            </div>
+                                            <br>
+                                            <div class="input group">
+                                                <lable>subject</lable>
+                                                <input type="text" placeholder="+Productdemo ">
+                                            </div>
+                                            <br>
+                                            <div class="input group">
+                                                <lable>subject</lable>
+                                                <input type="text" placeholder="+Productdemo ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <lable>Message</lable>
+                                    <textarea rows="5" placeholder="your message"></textarea>
+                                    <button type="submit"> SEND YOUR FORM</button>
+                                </form>
+                            </div>
+                            <div class="contact-right">
+                                <h3>Reach Us</h3>
+                                <table>
+                                    <tr>
+                                        <td>EMAIL ID</td>
+                                        <TD>Contactus@gmail.com</TD>
+
+                                    </tr>
+                                    <TR>
+                                        <tD>PHONE</tD>
+                                        <td>+ 968218 4545 555445</td>
+
+                                    </TR>
+                                    <tr>
+                                        <td>ADDRESS-<br></td>
+                                        <TD>k-2/22 krishan vihar <br> dellhi -110086 (New delhi)
+                                        </TD>
+                                    </tr>
+
+                                </table>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+
+        })
+    </script>
+
+</body>
+
+</html>
